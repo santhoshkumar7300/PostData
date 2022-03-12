@@ -87,3 +87,14 @@
   margin-bottom: unset;
   padding-top: 20px;
 }
+
+@media (min-width: 601px) and (max-width: 600px) {
+  .LoopImageDiv {
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .LoopImageDiv {
+    width: 64%;
+  }
+}
